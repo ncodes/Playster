@@ -10,7 +10,7 @@ def hello_world():
     return 'Hello World!'
 
 def runServer():
-    print 'Server started'
+    app.run(debug=True)
 
 def start(playster):
     """ Starts the server in another thread """
